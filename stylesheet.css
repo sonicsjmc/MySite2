@@ -1,0 +1,156 @@
+body {
+    margin:0;
+    text-align: center;
+    font-family: 'merriweather', sans-serif;
+}
+
+h1 {
+    color: #66bfbf;
+    font-size: 5.625em;
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+}
+
+h2 {
+    color: #66bfbf;
+    font-family:'Montserrat', sans-serif;
+    font-size: 2.5em;
+    font-weight: normal;
+}
+
+h3 {
+    color: #11999e;
+    font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+    border-style: dotted none none;
+    border-width: 10px;
+    width: 5%;
+    border-color: gray;
+}
+
+.top-container {
+    background-color: #e4f9f5;
+    position: relative;
+    padding: 100px;
+    animation-name: example;
+    animation-duration: 5s;
+}
+
+@keyframes example {
+    0% {background-color: red;}
+    25% {background-color: orange;}
+    50% {background-color: yellow;}
+    100% {background-color: black;}
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 400px;
+}
+
+.pic {
+    border-radius: 30%;
+    border-style: solid;
+    color: black;
+    border-width: 5px;
+    height: 350px;
+}
+
+.pic1 {
+    border-radius: 20%;
+    float: left;
+    height: 150px;
+}
+
+.pic2 {
+    border-radius: 20%;
+    float: right;
+    height: 150px;
+}
+
+.middle-container .skill-row {
+    width: 50%;
+    margin: 50px auto 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: left;
+    line-height: 2;
+}
+
+.middle-container .skill-row .pic1 {
+    margin-right: 30px;
+}
+
+.middle-container .skill1-row .pic2 {
+    margin-left: 30px;
+}
+
+.contact-me {
+    margin: 0%;
+    line-height: 2;
+}
+
+.btn {
+    background-image: linear-gradient(#82f0f0, #158e92);
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-decoration: none;
+    opacity: 0.6;
+    transition: o.3s;
+}
+
+.btn:active {
+    background-color: red;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+.bottom-container {
+    background-color: #66bfbf;
+    height: 150px;
+    animation-name: example;
+    animation-duration: 5s;
+}
+
+.cc {
+    color: white;
+}
+
+.footer-link {
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px 20px;
+    color: #158e92;
+    opacity: 0.6;
+    transition: o.3s;
+}
+
+.footer-link:active {
+    background-color: #666;
+    transform: translateY(4px);
+}
+
+.footer-link:hover {
+    opacity: 1;
+    border-style: groove;
+    border-color: black;
+}
